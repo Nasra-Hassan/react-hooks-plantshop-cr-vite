@@ -13,10 +13,10 @@ function NewPlantForm({ onAddPlant }) {
       price: formData.get("price"),
     };
 
-    // Call parent callback to add plant
+    
     onAddPlant(newPlant);
 
-    // Reset form fields
+    
     event.target.reset();
   }
 
